@@ -1426,43 +1426,43 @@ img {
 }
 
 /*Секция шапка*/
-.hat {
+.hat{
   background-color: var(--primary-dark-bg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: url(/images/hat/hat_sm.jpg);
+  background-image: url(./images/hat/hat_sm.jpg);
   /*Для ретина экрана мобильная версия*/
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hat {
-    background-image: url(/images/hat/hat_sm@2x.jpg);
+    background-image: url(./images/hat/hat_sm@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .hat {
-    background-image: url(/images/hat/hat_md.jpg);
+    background-image: url(./images/hat/hat_md.jpg);
     /*Для ретина экрана планшетная версия*/
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hat {
-    background-image: url(/images/hat/hat_md@2x.jpg);
+    background-image: url(./images/hat/hat_md@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hat {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/images/hat/hat_lg.jpg);
+    background-image: url(./images/hat/hat_lg.jpg);
     /*Для ретина экрана компьютерная версия*/
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hat {
-    background-image: url(/images/hat/hat_lg@2x.jpg);
+    background-image: url(./images/hat/hat_lg@2x.jpg);
   }
 }
 .hat__phrase {
