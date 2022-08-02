@@ -1,0 +1,23 @@
+/*Хедер*/
+.header{
+    
+    border-bottom: solid 1px #ECECEC;
+}
+.mail-svg{
+    height: 10px;
+    width: 16px;
+}
+
+.header--container{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+}
+.header--contacts{
+    margin-left: auto;
+    align-items: center;
+}
+.tel-svg{
+    width: 10px;
+    height: 16px;
+}
